@@ -7,9 +7,13 @@ This is a `depth=1` clone of [reveal.js](https://github.com/hakimel/reveal.js/) 
 ## Getting Started
 
 ```
-g clone --depth=1 git@github.com:mokagio/pug-reveal-template.git new-slide-deck
+git clone --depth=1 git@github.com:mokagio/pug-reveal-template.git new-slide-deck
 
 cd new-slide-deck
+
+rm -rf .git
+
+git init
 
 npm install
 
