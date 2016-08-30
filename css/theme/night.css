@@ -222,9 +222,13 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
+  /*
+   * Disabled because I never use this style, but who knows maybe I will in
+   * the future  ¯\_(ツ)_/¯
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #eee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  */ }
 
 .reveal section img.plain {
   border: 0;
